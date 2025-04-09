@@ -8,8 +8,8 @@
 		"Van"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://vanvo.vercel.app/",
+		"sources": "https://github.com/VanVoE/kono-mounts"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/konomounts/icon.png",
