@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "konomounts",
+	"version": "${version}",
+	"name": "Kono Mounts",
+	"description": "Custom Mounts For Minecraft",
+	"authors": [
+		"Van"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/konomounts/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.konohaven.konomounts.KonoMounts"
+		],
+		"fabric-datagen": [
+			"com.konohaven.konomounts.KonoMountsDataGenerator"
+		],
+		"client": [
+			"com.konohaven.konomounts.KonoMountsClient"
+		]
+	},
+	"mixins": [
+		"konomounts.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
